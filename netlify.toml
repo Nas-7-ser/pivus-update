@@ -1,0 +1,9 @@
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+# L'accès admin discret /admin-pivus sert la page d'accueil.
+[[redirects]]
+  from = "/admin-pivus"
+  to = "/index.html"
+  status = 200
