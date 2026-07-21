@@ -1,0 +1,12 @@
+Nouveau message depuis le site PIVUS
+========================================
+Nom        : Test
+Email      : a@b.com
+Société    : 
+Secteur    : 
+Liquide    : 
+Stade      : 
+Reçu le    : 2026-06-04T10:53:51
+
+Message:
+Ceci est un message de test suffisamment long.

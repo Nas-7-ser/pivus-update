@@ -1,0 +1,908 @@
+{
+  "fr": {
+    "site": {
+      "email": "nasserhan25@gmail.com"
+    },
+    "nav": {
+      "method": "Méthode",
+      "applications": "Applications",
+      "offers": "Offres",
+      "useCases": "Cas d'usage",
+      "team": "Équipe",
+      "cta": "Décrire mon cas",
+      "contactShort": "Contact"
+    },
+    "video": {
+      "eyebrow": "// Démonstration",
+      "title": "Voir PIVUS en action",
+      "lead": "Découvrez comment le champ de vitesses se lit en conditions réelles — au laboratoire ou sur une ligne de production.",
+      "url": "https://youtu.be/uQlCZuYTl94",
+      "poster": ""
+    },
+    "team": {
+      "eyebrow": "// Équipe",
+      "title": "Les personnes derrière PIVUS",
+      "lead": "Une équipe deeptech au service du contrôle non destructif des liquides — de la R&D à l'accompagnement sur site.",
+      "members": [
+        {
+          "image": "https://i.postimg.cc/C11WfJ6T/1712826873259.jpg",
+          "name": "Jules Ferme",
+          "role": "Co-fondateur · CTO",
+          "bio": "Courte description du parcours et du rôle au sein de PIVUS. À personnaliser."
+        },
+        {
+          "image": "https://i.postimg.cc/NFG70PN9/1731853683681.jpg",
+          "name": "Olivier Dupuis",
+          "role": "Co-fondateur · CEO",
+          "bio": "Courte description du parcours et du rôle au sein de PIVUS. À personnaliser."
+        },
+        {
+          "image": "https://i.postimg.cc/JnzGHVWT/1610120572015.jpg",
+          "name": "Mathieu Cavaro",
+          "role": "Scientifique",
+          "bio": "Courte description du parcours et du rôle au sein de PIVUS. À personnaliser."
+        },
+        {
+          "image": "https://i.postimg.cc/Jhz10j1s/bonzom.png",
+          "name": "Paul-Vincent Bonzom",
+          "role": "Chef de laboratoire LMTE - CEA",
+          "bio": "Courte description du parcours et du rôle. À personnaliser."
+        },
+        {
+          "image": "https://i.postimg.cc/CLMJ9MSy/1573824161587.jpg",
+          "name": "Bertrand Coulon",
+          "role": "Deeptech Startups Advisor - CEA",
+          "bio": "Courte description du parcours et du rôle. À personnaliser."
+        },
+        {
+          "image": "https://i.postimg.cc/zvsMS9bc/Karim-Sidialicherif-1.png",
+          "name": "Karim Sidi Ali Chérif",
+          "role": "Startup Program Manager - CEA",
+          "bio": "Courte description du parcours et du rôle. À personnaliser."
+        }
+      ]
+    },
+    "useCases": {
+      "eyebrow": "// Cas d'usage",
+      "title": "Cas d'usage",
+      "lead": "Des exemples concrets où le champ de vitesses a fait la différence — au laboratoire comme en production.",
+      "readMore": "Lire le cas",
+      "backToList": "Tous les cas d'usage",
+      "emptyAdmin": "Aucun cas d'usage pour l'instant. Cliquez sur « Ajouter un cas » pour commencer.",
+      "notFound": "Ce cas d'usage est introuvable.",
+      "metaLabel": "Publié",
+      "items": [
+        {
+          "image": "https://mcintoshok.com/wp-content/uploads/2023/01/What_Is_Industrial_Piping_638102344099625142.png.webp",
+          "tag": "Agroalimentaire",
+          "date": "2026",
+          "title": "Détecter un encrassement avant le bouchon",
+          "description": "Sur une ligne laitière, PIVUS a révélé un jet accéléré signalant un encrassement naissant — deux semaines avant l'arrêt.",
+          "blocks": [
+            {
+              "h": "Le contexte",
+              "p": "Une ligne de production subissait des bouchons récurrents, sans signe avant-coureur visible. Chaque arrêt imprévu coûtait cher en nettoyage et en production perdue."
+            },
+            {
+              "h": "La mesure",
+              "p": "PIVUS a mesuré le champ de vitesses à travers la paroi, sans contact ni interruption du procédé. Un jet accéléré au centre de la conduite est apparu là où le passage se resserrait."
+            },
+            {
+              "h": "Le résultat",
+              "p": "L'encrassement a été détecté deux semaines avant le bouchon complet, laissant le temps de planifier une maintenance ciblée et d'éviter un arrêt subi."
+            }
+          ]
+        },
+        {
+          "image": "",
+          "tag": "Nettoyage CIP",
+          "date": "2026",
+          "title": "Régler un cycle de nettoyage au plus juste",
+          "description": "En visualisant l'écoulement de décapage, un cycle CIP surdimensionné a été réduit sans risque de résidu.",
+          "blocks": [
+            {
+              "h": "Le contexte",
+              "p": "Par précaution, un cycle de nettoyage tournait bien plus longtemps que nécessaire, consommant eau, produits et temps machine."
+            },
+            {
+              "h": "La mesure",
+              "p": "Le champ de vitesses a montré que le liquide décapait déjà efficacement la paroi basse bien avant la fin du cycle."
+            },
+            {
+              "h": "Le résultat",
+              "p": "Le cycle a été raccourci en conservant une marge de sécurité, réduisant la consommation d'eau et de produits, sans aucun résidu constaté."
+            }
+          ]
+        }
+      ]
+    },
+    "hero": {
+      "pill": "Contrôle non destructif des liquides",
+      "titleLine1": "Le mouvement de vos liquides,",
+      "titleAccent": "enfin visible.",
+      "sub": "PIVUS mesure par ultrasons le champ de vitesses à l'intérieur d'un liquide — sans contact, sans le toucher. Au laboratoire comme sur votre ligne, vous comprenez enfin ce qui s'y passe vraiment.",
+      "ctaPrimary": "Décrivez-nous votre cas",
+      "ctaSecondary": "Voir les applications",
+      "stats": [
+        {
+          "num": "Sans contact",
+          "lab": "mesure à travers la paroi"
+        },
+        {
+          "num": "Champ 2D",
+          "lab": "vitesse + direction, en chaque point"
+        },
+        {
+          "num": "Labo & ligne",
+          "lab": "essais comme production"
+        }
+      ]
+    },
+    "method": {
+      "eyebrow": "// Méthode",
+      "title": "Une mesure par ultrasons, sans rien toucher",
+      "lead": "PIVUS envoie des ondes ultrasonores dans le liquide et reconstruit, point par point, la vitesse et la direction du mouvement. Le résultat : une carte en 2D de tout ce qui circule à l'intérieur.",
+      "steps": [
+        {
+          "ico": "wave",
+          "n": "ÉTAPE 01",
+          "h": "L'onde traverse le liquide",
+          "p": "Une onde ultrasonore est envoyée à travers la paroi. Rien n'est plongé dans le liquide, rien n'est modifié."
+        },
+        {
+          "ico": "grid",
+          "n": "ÉTAPE 02",
+          "h": "Le champ de vitesses se reconstruit",
+          "p": "PIVUS calcule la vitesse et la direction en chaque point, et en fait une image 2D animée."
+        },
+        {
+          "ico": "eye",
+          "n": "ÉTAPE 03",
+          "h": "Vous lisez l'intérieur",
+          "p": "Frottements, remous, zones mortes, bouchons : ce qui était invisible devient lisible."
+        }
+      ],
+      "noteStrong": "Une seule condition : que le produit soit liquide.",
+      "noteText": "PIVUS s'utilise aussi bien sur une ligne de production qu'au laboratoire ou sur un banc d'essai — sur une large gamme de liquides à forte valeur."
+    },
+    "applications": {
+      "eyebrow": "// Applications",
+      "title": "Ce que révèle le champ de vitesses",
+      "lead": "Chaque phénomène laisse une signature dans le mouvement du liquide. Voici les cas que nous savons déjà lire — et autant de pistes à explorer avec vous.",
+      "items": [
+        {
+          "field": "channel",
+          "idx": "01",
+          "tag": "CISAILLEMENT_PARIETAL",
+          "title": "La force du liquide sur les parois",
+          "intro": "Le champ de vitesses montre à quelle vitesse le liquide glisse le long des parois. Plus il accélère près du bord, plus il frotte — et plus il est capable de décrocher ce qui s'y dépose.",
+          "reads": [
+            {
+              "k": "Ce que vous voyez",
+              "t": "Le centre va vite (clair), les bords ralentissent (sombre). Ce contraste mesure le frottement à la paroi."
+            },
+            {
+              "k": "Ce que ça vous apporte",
+              "t": "Savoir si vos dépôts vont se détacher, et calibrer vos nettoyages au plus juste."
+            }
+          ],
+          "readout": "frottement paroi · max au centre"
+        },
+        {
+          "field": "turbulence",
+          "idx": "02",
+          "tag": "TURBULENCE",
+          "title": "Les zones agitées et les remous",
+          "intro": "Quand le liquide tourbillonne, le champ de vitesses se remplit de boucles. PIVUS les rend visibles là où l'œil ne voit qu'un liquide opaque.",
+          "reads": [
+            {
+              "k": "Ce que vous voyez",
+              "t": "Des tourbillons qui se forment, se déplacent et se mélangent en continu."
+            },
+            {
+              "k": "Ce que ça vous apporte",
+              "t": "Comprendre le mélange et repérer les agitations qui abîment un produit fragile."
+            }
+          ],
+          "readout": "tourbillons · écoulement instable"
+        },
+        {
+          "field": "deadzone",
+          "idx": "03",
+          "tag": "ZONE_MORTE",
+          "title": "Les endroits où le liquide stagne",
+          "intro": "Certaines zones ne bougent presque pas : le liquide y reste piégé. Le champ de vitesses les fait ressortir comme des taches sombres et immobiles.",
+          "reads": [
+            {
+              "k": "Ce que vous voyez",
+              "t": "Une poche sombre où les lignes de courant disparaissent : la vitesse y est quasi nulle."
+            },
+            {
+              "k": "Ce que ça vous apporte",
+              "t": "Éviter les recoins où un produit s'accumule, vieillit ou contamine le reste."
+            }
+          ],
+          "readout": "vitesse ≈ 0 · stagnation"
+        },
+        {
+          "field": "blockage",
+          "idx": "04",
+          "tag": "ENCRASSEMENT",
+          "title": "Un dépôt ou un bouchon qui se forme",
+          "intro": "Quand une conduite s'encrasse, le passage se rétrécit et le liquide accélère pour passer. Ce jet plus rapide est un signal clair, bien avant le bouchon complet.",
+          "reads": [
+            {
+              "k": "Ce que vous voyez",
+              "t": "Un jet très clair au centre, là où le passage se resserre."
+            },
+            {
+              "k": "Ce que ça vous apporte",
+              "t": "Anticiper un bouchon et planifier la maintenance avant l'arrêt."
+            }
+          ],
+          "readout": "rétrécissement · jet accéléré"
+        },
+        {
+          "field": "cleaning",
+          "idx": "05",
+          "tag": "NETTOYAGE_CIP",
+          "title": "Régler le nettoyage au plus juste",
+          "intro": "Pendant un nettoyage, le champ de vitesses montre si le liquide passe assez fort là où le dépôt s'accroche. De quoi nettoyer ni trop, ni trop peu.",
+          "reads": [
+            {
+              "k": "Ce que vous voyez",
+              "t": "L'écoulement qui décape le dépôt accroché à la paroi basse."
+            },
+            {
+              "k": "Ce que ça vous apporte",
+              "t": "Réduire la durée, l'eau et les produits de nettoyage, sans risque de résidu."
+            }
+          ],
+          "readout": "décapage · cycle maîtrisé"
+        },
+        {
+          "field": "quality",
+          "idx": "06",
+          "tag": "CONTROLE_QUALITE",
+          "title": "Une signature stable, produit après produit",
+          "intro": "Un même liquide bien maîtrisé donne toujours le même champ de vitesses. Toute dérive — viscosité, mélange, composition — se lit comme un écart à cette signature.",
+          "reads": [
+            {
+              "k": "Ce que vous voyez",
+              "t": "Un écoulement régulier et homogène : la signature d'un produit conforme."
+            },
+            {
+              "k": "Ce que ça vous apporte",
+              "t": "Détecter une anomalie tôt et attester de la régularité de vos produits."
+            }
+          ],
+          "readout": "signature stable · conforme"
+        }
+      ]
+    },
+    "products": {
+      "eyebrow": "// Offres",
+      "title": "Trois façons de travailler avec PIVUS",
+      "lead": "Achat, location ou prestation : vous choisissez le niveau d'accompagnement.",
+      "items": [
+        {
+          "kicker": "01 — Solution clé en main",
+          "title": "Matériel + logiciel",
+          "desc": "L'équipement de mesure et son logiciel de traitement, installés chez vous. À l'achat ou en location, avec licence logicielle.",
+          "feats": [
+            "Matériel de mesure ultrasonore",
+            "Logiciel de traitement & visualisation",
+            "Achat ou location + licence"
+          ]
+        },
+        {
+          "kicker": "02 — Prestation de mesure",
+          "title": "Campagnes de mesure",
+          "desc": "Nos équipes viennent mesurer chez vous et vous remettent un rapport complet et détaillé de votre installation.",
+          "feats": [
+            "Intervention sur site",
+            "Analyse du champ de vitesses",
+            "Rapport complet et détaillé"
+          ]
+        },
+        {
+          "kicker": "03 — Location",
+          "title": "Équipement à la demande",
+          "desc": "Le matériel de contrôle mis à disposition sur une période définie, pour un besoin ponctuel ou un essai.",
+          "feats": [
+            "Mise à disposition temporaire",
+            "Idéal pour un test ou un pic d'activité",
+            "Accompagnement à la prise en main"
+          ]
+        }
+      ]
+    },
+    "positioning": {
+      "eyebrow": "// Positionnement",
+      "title": "Le contrôle non destructif, appliqué aux liquides",
+      "body": "PIVUS est une entreprise de contrôle non destructif (CND) spécialisée dans les liquides. Nous nous adressons à tous ceux dont les liquides ont de la valeur — et pour qui un défaut invisible coûte cher.",
+      "sectors": [
+        {
+          "ico": "agro",
+          "name": "Agroalimentaire",
+          "line": "Qualité, hygiène et nettoyage maîtrisés."
+        },
+        {
+          "ico": "chem",
+          "name": "Chimie",
+          "line": "Procédés sous contrôle, sans intrusion."
+        },
+        {
+          "ico": "pharma",
+          "name": "Pharmacie",
+          "line": "Traçabilité et propreté des circuits."
+        },
+        {
+          "ico": "cosmo",
+          "name": "Cosmétique",
+          "line": "Régularité des textures et des mélanges."
+        },
+        {
+          "ico": "energy",
+          "name": "Énergie",
+          "line": "Liquides caloporteurs et circuits sous surveillance."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "// Parlons-en",
+      "title": "Un problème avec un liquide ? Décrivez-le-nous.",
+      "body": "Nous cherchons des cas concrets. Dites-nous ce qui vous bloque avec l'un de vos liquides — même si vous ne savez pas encore si c'est mesurable. Nous étudions ensemble si notre méthode peut vous aider.",
+      "points": [
+        "On lit votre problème et on évalue la faisabilité.",
+        "On vous dit franchement si le champ de vitesses peut aider.",
+        "Si oui, on définit ensemble un premier essai."
+      ],
+      "labels": {
+        "nom": "Nom",
+        "email": "Email",
+        "societe": "Société",
+        "secteur": "Secteur",
+        "liquide": "Type de liquide",
+        "stade": "À quel stade ?",
+        "message": "Votre problème ou votre question",
+        "submit": "Envoyer mon cas"
+      },
+      "formFoot": "Réponse sous 48 h ouvrées · Vos informations restent confidentielles.",
+      "successTitle": "Bien reçu, merci !",
+      "successBody": "Nous étudions votre cas et revenons vers vous sous 48 h ouvrées.",
+      "errorBody": "Une erreur est survenue à l'envoi. Réessayez ou écrivez-nous directement."
+    },
+    "footer": {
+      "tagline": "Le contrôle non destructif appliqué aux liquides. Mesure ultrasonore du champ de vitesses, sans contact.",
+      "navTitle": "Navigation",
+      "contactTitle": "Contact",
+      "legalTitle": "Légal",
+      "cguLink": "Conditions d'utilisation",
+      "cgvLink": "Conditions de vente",
+      "copyright": "© 2026 PIVUS — Tous droits réservés.",
+      "meta": "Deeptech · Instrumentation · CND des liquides"
+    },
+    "legal": {
+      "cgu": {
+        "title": "Conditions Générales d'Utilisation",
+        "subtitle": "Les règles qui encadrent l'accès et l'usage du site PIVUS.",
+        "updated": "Dernière mise à jour : à compléter",
+        "blocks": [
+          {
+            "h": "1. Préambule",
+            "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "h": "2. Accès au site",
+            "p": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          },
+          {
+            "h": "3. Propriété intellectuelle",
+            "p": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          {
+            "h": "4. Données personnelles",
+            "p": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+          },
+          {
+            "h": "5. Responsabilité",
+            "p": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+          },
+          {
+            "h": "6. Contact",
+            "p": "Pour toute question relative aux présentes conditions, contactez-nous à {email}."
+          }
+        ]
+      },
+      "cgv": {
+        "title": "Conditions Générales de Vente",
+        "subtitle": "Les conditions applicables à nos offres : achat, location et prestations.",
+        "updated": "Dernière mise à jour : à compléter",
+        "blocks": [
+          {
+            "h": "1. Objet",
+            "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "h": "2. Commandes",
+            "p": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          },
+          {
+            "h": "3. Prix et paiement",
+            "p": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          },
+          {
+            "h": "4. Livraison et installation",
+            "p": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          },
+          {
+            "h": "5. Garanties",
+            "p": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+          },
+          {
+            "h": "6. Location et prestations",
+            "p": "Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          {
+            "h": "7. Droit applicable",
+            "p": "Pour toute question relative aux présentes conditions de vente, contactez-nous à {email}."
+          }
+        ]
+      }
+    }
+  },
+  "en": {
+    "site": {
+      "email": "nasserhan25@gmail.com"
+    },
+    "nav": {
+      "method": "Method",
+      "applications": "Applications",
+      "offers": "Offers",
+      "useCases": "Use cases",
+      "team": "Team",
+      "cta": "Describe my case",
+      "contactShort": "Contact"
+    },
+    "video": {
+      "eyebrow": "// Demonstration",
+      "title": "See PIVUS in action",
+      "lead": "Discover how the velocity field reads in real conditions — in the lab or on a production line.",
+      "url": "https://youtu.be/uQlCZuYTl94",
+      "poster": ""
+    },
+    "team": {
+      "eyebrow": "// Team",
+      "title": "The people behind PIVUS",
+      "lead": "A deeptech team dedicated to the non-destructive testing of liquids — from R&D to on-site support.",
+      "members": [
+        {
+          "image": "https://i.postimg.cc/C11WfJ6T/1712826873259.jpg",
+          "name": "First Last",
+          "role": "Co-founder · Management",
+          "bio": "Short description of the background and role within PIVUS. To be personalized."
+        },
+        {
+          "image": "https://i.postimg.cc/NFG70PN9/1731853683681.jpg",
+          "name": "First Last",
+          "role": "Co-founder · Technical",
+          "bio": "Short description of the background and role within PIVUS. To be personalized."
+        },
+        {
+          "image": "https://i.postimg.cc/JnzGHVWT/1610120572015.jpg",
+          "name": "First Last",
+          "role": "Applications Lead",
+          "bio": "Short description of the background and role within PIVUS. To be personalized."
+        },
+        {
+          "image": "https://i.postimg.cc/Jhz10j1s/bonzom.png",
+          "name": "First Last",
+          "role": "Role / position",
+          "bio": "Short description of the background and role. To be personalized."
+        },
+        {
+          "image": "https://i.postimg.cc/CLMJ9MSy/1573824161587.jpg",
+          "name": "First Last",
+          "role": "Role / position",
+          "bio": "Short description of the background and role. To be personalized."
+        },
+        {
+          "image": "https://i.postimg.cc/zvsMS9bc/Karim-Sidialicherif-1.png",
+          "name": "First Last",
+          "role": "Role / position",
+          "bio": "Short description of the background and role. To be personalized."
+        }
+      ]
+    },
+    "useCases": {
+      "eyebrow": "// Use cases",
+      "title": "Use cases",
+      "lead": "Concrete examples where the velocity field made the difference — in the lab as well as in production.",
+      "readMore": "Read the case",
+      "backToList": "All use cases",
+      "emptyAdmin": "No use case yet. Click \"Add a case\" to get started.",
+      "notFound": "This use case could not be found.",
+      "metaLabel": "Published",
+      "items": [
+        {
+          "image": "https://mcintoshok.com/wp-content/uploads/2023/01/What_Is_Industrial_Piping_638102344099625142.png.webp",
+          "tag": "Food & Beverage",
+          "date": "2026",
+          "title": "Spotting fouling before the blockage",
+          "description": "On a dairy line, PIVUS revealed an accelerated jet signalling early fouling — two weeks before the shutdown.",
+          "blocks": [
+            {
+              "h": "The context",
+              "p": "A production line suffered recurring blockages with no visible warning signs. Each unplanned stop was costly in cleaning and lost production."
+            },
+            {
+              "h": "The measurement",
+              "p": "PIVUS measured the velocity field through the wall, without contact or interrupting the process. An accelerated jet appeared at the center of the pipe, where the passage narrowed."
+            },
+            {
+              "h": "The result",
+              "p": "The fouling was detected two weeks before the complete blockage, leaving time to schedule targeted maintenance and avoid an unplanned stop."
+            }
+          ]
+        },
+        {
+          "image": "",
+          "tag": "CIP cleaning",
+          "date": "2026",
+          "title": "Tuning a cleaning cycle as precisely as possible",
+          "description": "By visualizing the scouring flow, an oversized CIP cycle was shortened with no risk of residue.",
+          "blocks": [
+            {
+              "h": "The context",
+              "p": "As a precaution, a cleaning cycle ran far longer than needed, consuming water, products and machine time."
+            },
+            {
+              "h": "The measurement",
+              "p": "The velocity field showed that the liquid was already scouring the lower wall effectively well before the end of the cycle."
+            },
+            {
+              "h": "The result",
+              "p": "The cycle was shortened while keeping a safety margin, reducing water and product use, with no residue observed."
+            }
+          ]
+        }
+      ]
+    },
+    "hero": {
+      "pill": "Non-destructive testing of liquids",
+      "titleLine1": "The movement of your liquids,",
+      "titleAccent": "finally visible.",
+      "sub": "PIVUS uses ultrasound to measure the velocity field inside a liquid — without contact, without touching it. In the lab as on your line, you finally understand what is really happening inside.",
+      "ctaPrimary": "Tell us about your case",
+      "ctaSecondary": "See the applications",
+      "stats": [
+        {
+          "num": "Contactless",
+          "lab": "measurement through the wall"
+        },
+        {
+          "num": "2D field",
+          "lab": "speed + direction, at every point"
+        },
+        {
+          "num": "Lab & line",
+          "lab": "trials and production alike"
+        }
+      ]
+    },
+    "method": {
+      "eyebrow": "// Method",
+      "title": "Ultrasonic measurement, without touching anything",
+      "lead": "PIVUS sends ultrasonic waves into the liquid and reconstructs, point by point, the speed and direction of the movement. The result: a 2D map of everything flowing inside.",
+      "steps": [
+        {
+          "ico": "wave",
+          "n": "STEP 01",
+          "h": "The wave crosses the liquid",
+          "p": "An ultrasonic wave is sent through the wall. Nothing is immersed in the liquid, nothing is altered."
+        },
+        {
+          "ico": "grid",
+          "n": "STEP 02",
+          "h": "The velocity field is reconstructed",
+          "p": "PIVUS computes speed and direction at every point and turns it into an animated 2D image."
+        },
+        {
+          "ico": "eye",
+          "n": "STEP 03",
+          "h": "You read the inside",
+          "p": "Friction, eddies, dead zones, blockages: what was invisible becomes readable."
+        }
+      ],
+      "noteStrong": "One condition only: that the product is liquid.",
+      "noteText": "PIVUS works just as well on a production line as in the lab or on a test bench — across a wide range of high-value liquids."
+    },
+    "applications": {
+      "eyebrow": "// Applications",
+      "title": "What the velocity field reveals",
+      "lead": "Every phenomenon leaves a signature in the movement of the liquid. Here are the cases we already know how to read — and just as many avenues to explore with you.",
+      "items": [
+        {
+          "field": "channel",
+          "idx": "01",
+          "tag": "WALL_SHEAR",
+          "title": "The force of the liquid on the walls",
+          "intro": "The velocity field shows how fast the liquid slides along the walls. The more it accelerates near the edge, the more it rubs — and the more it can dislodge whatever settles there.",
+          "reads": [
+            {
+              "k": "What you see",
+              "t": "The center moves fast (bright), the edges slow down (dark). This contrast measures friction at the wall."
+            },
+            {
+              "k": "What it gives you",
+              "t": "Know whether your deposits will come loose, and calibrate your cleaning as precisely as possible."
+            }
+          ],
+          "readout": "wall friction · max at center"
+        },
+        {
+          "field": "turbulence",
+          "idx": "02",
+          "tag": "TURBULENCE",
+          "title": "Agitated zones and eddies",
+          "intro": "When the liquid swirls, the velocity field fills with loops. PIVUS makes them visible where the eye sees only an opaque liquid.",
+          "reads": [
+            {
+              "k": "What you see",
+              "t": "Vortices that form, move and mix continuously."
+            },
+            {
+              "k": "What it gives you",
+              "t": "Understand mixing and spot the agitation that damages a fragile product."
+            }
+          ],
+          "readout": "vortices · unstable flow"
+        },
+        {
+          "field": "deadzone",
+          "idx": "03",
+          "tag": "DEAD_ZONE",
+          "title": "The places where the liquid stagnates",
+          "intro": "Some zones barely move: the liquid stays trapped there. The velocity field brings them out as dark, motionless patches.",
+          "reads": [
+            {
+              "k": "What you see",
+              "t": "A dark pocket where the streamlines vanish: the speed there is nearly zero."
+            },
+            {
+              "k": "What it gives you",
+              "t": "Avoid the nooks where a product accumulates, ages or contaminates the rest."
+            }
+          ],
+          "readout": "speed ≈ 0 · stagnation"
+        },
+        {
+          "field": "blockage",
+          "idx": "04",
+          "tag": "FOULING",
+          "title": "A deposit or blockage forming",
+          "intro": "When a pipe fouls, the passage narrows and the liquid accelerates to get through. This faster jet is a clear signal, well before a complete blockage.",
+          "reads": [
+            {
+              "k": "What you see",
+              "t": "A very bright jet at the center, where the passage narrows."
+            },
+            {
+              "k": "What it gives you",
+              "t": "Anticipate a blockage and schedule maintenance before a shutdown."
+            }
+          ],
+          "readout": "constriction · accelerated jet"
+        },
+        {
+          "field": "cleaning",
+          "idx": "05",
+          "tag": "CIP_CLEANING",
+          "title": "Tuning cleaning as precisely as possible",
+          "intro": "During cleaning, the velocity field shows whether the liquid passes strongly enough where the deposit clings. Enough to clean neither too much nor too little.",
+          "reads": [
+            {
+              "k": "What you see",
+              "t": "The flow scouring the deposit stuck to the lower wall."
+            },
+            {
+              "k": "What it gives you",
+              "t": "Reduce cleaning time, water and products, with no risk of residue."
+            }
+          ],
+          "readout": "scouring · controlled cycle"
+        },
+        {
+          "field": "quality",
+          "idx": "06",
+          "tag": "QUALITY_CONTROL",
+          "title": "A stable signature, product after product",
+          "intro": "A well-controlled liquid always gives the same velocity field. Any drift — viscosity, mixing, composition — reads as a deviation from that signature.",
+          "reads": [
+            {
+              "k": "What you see",
+              "t": "A regular, homogeneous flow: the signature of a compliant product."
+            },
+            {
+              "k": "What it gives you",
+              "t": "Detect an anomaly early and attest to the consistency of your products."
+            }
+          ],
+          "readout": "stable signature · compliant"
+        }
+      ]
+    },
+    "products": {
+      "eyebrow": "// Offers",
+      "title": "Three ways to work with PIVUS",
+      "lead": "Purchase, rental or service: you choose the level of support.",
+      "items": [
+        {
+          "kicker": "01 — Turnkey solution",
+          "title": "Hardware + software",
+          "desc": "The measurement equipment and its processing software, installed at your site. To buy or to rent, with a software license.",
+          "feats": [
+            "Ultrasonic measurement hardware",
+            "Processing & visualization software",
+            "Purchase or rental + license"
+          ]
+        },
+        {
+          "kicker": "02 — Measurement service",
+          "title": "Measurement campaigns",
+          "desc": "Our teams come to measure at your site and deliver a complete, detailed report of your installation.",
+          "feats": [
+            "On-site intervention",
+            "Velocity field analysis",
+            "Complete, detailed report"
+          ]
+        },
+        {
+          "kicker": "03 — Rental",
+          "title": "Equipment on demand",
+          "desc": "The testing equipment made available for a defined period, for a one-off need or a trial.",
+          "feats": [
+            "Temporary availability",
+            "Ideal for a test or an activity peak",
+            "Onboarding support"
+          ]
+        }
+      ]
+    },
+    "positioning": {
+      "eyebrow": "// Positioning",
+      "title": "Non-destructive testing, applied to liquids",
+      "body": "PIVUS is a non-destructive testing (NDT) company specialized in liquids. We address anyone whose liquids have value — and for whom an invisible defect is costly.",
+      "sectors": [
+        {
+          "ico": "agro",
+          "name": "Food & Beverage",
+          "line": "Quality, hygiene and cleaning under control."
+        },
+        {
+          "ico": "chem",
+          "name": "Chemistry",
+          "line": "Processes under control, without intrusion."
+        },
+        {
+          "ico": "pharma",
+          "name": "Pharmaceuticals",
+          "line": "Traceability and cleanliness of circuits."
+        },
+        {
+          "ico": "cosmo",
+          "name": "Cosmetics",
+          "line": "Consistency of textures and mixtures."
+        },
+        {
+          "ico": "energy",
+          "name": "Energy",
+          "line": "Heat-transfer liquids and circuits under watch."
+        }
+      ]
+    },
+    "contact": {
+      "eyebrow": "// Let’s talk",
+      "title": "A problem with a liquid? Tell us about it.",
+      "body": "We are looking for concrete cases. Tell us what is blocking you with one of your liquids — even if you do not yet know whether it is measurable. Together we will study whether our method can help.",
+      "points": [
+        "We read your problem and assess feasibility.",
+        "We tell you frankly whether the velocity field can help.",
+        "If so, we define a first trial together."
+      ],
+      "labels": {
+        "nom": "Name",
+        "email": "Email",
+        "societe": "Company",
+        "secteur": "Sector",
+        "liquide": "Type of liquid",
+        "stade": "At what stage?",
+        "message": "Your problem or your question",
+        "submit": "Send my case"
+      },
+      "formFoot": "Reply within 48 business hours · Your information stays confidential.",
+      "successTitle": "Well received, thank you!",
+      "successBody": "We are studying your case and will get back to you within 48 business hours.",
+      "errorBody": "An error occurred while sending. Try again or write to us directly."
+    },
+    "footer": {
+      "tagline": "Non-destructive testing applied to liquids. Ultrasonic measurement of the velocity field, contactless.",
+      "navTitle": "Navigation",
+      "contactTitle": "Contact",
+      "legalTitle": "Legal",
+      "cguLink": "Terms of Use",
+      "cgvLink": "Terms of Sale",
+      "copyright": "© 2026 PIVUS — All rights reserved.",
+      "meta": "Deeptech · Instrumentation · NDT of liquids"
+    },
+    "legal": {
+      "cgu": {
+        "title": "Terms of Use",
+        "subtitle": "The rules governing access to and use of the PIVUS website.",
+        "updated": "Last updated: to be completed",
+        "blocks": [
+          {
+            "h": "1. Preamble",
+            "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+          },
+          {
+            "h": "2. Access to the site",
+            "p": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          },
+          {
+            "h": "3. Intellectual property",
+            "p": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          {
+            "h": "4. Personal data",
+            "p": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt."
+          },
+          {
+            "h": "5. Liability",
+            "p": "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+          },
+          {
+            "h": "6. Contact",
+            "p": "For any question regarding these terms, contact us at {email}."
+          }
+        ]
+      },
+      "cgv": {
+        "title": "Terms of Sale",
+        "subtitle": "The terms applicable to our offers: purchase, rental and services.",
+        "updated": "Last updated: to be completed",
+        "blocks": [
+          {
+            "h": "1. Purpose",
+            "p": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          {
+            "h": "2. Orders",
+            "p": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+          },
+          {
+            "h": "3. Price and payment",
+            "p": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          },
+          {
+            "h": "4. Delivery and installation",
+            "p": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+          },
+          {
+            "h": "5. Warranties",
+            "p": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam."
+          },
+          {
+            "h": "6. Rental and services",
+            "p": "Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo."
+          },
+          {
+            "h": "7. Governing law",
+            "p": "For any question regarding these terms of sale, contact us at {email}."
+          }
+        ]
+      }
+    }
+  }
+}

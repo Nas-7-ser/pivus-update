@@ -1,0 +1,12 @@
+Nouveau message depuis le site PIVUS
+========================================
+Nom        : Jean
+Email      : jean@acme.com
+Société    : 
+Secteur    : 
+Liquide    : 
+Stade      : 
+Reçu le    : 2026-06-04T10:19:04
+
+Message:
+Nous avons un dépôt récurrent dans nos cuves de sirop.

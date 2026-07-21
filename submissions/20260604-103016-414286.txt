@@ -1,0 +1,12 @@
+Nouveau message depuis le site PIVUS
+========================================
+Nom        : Ennasser
+Email      : nasserhan@25gmail.com
+Société    : Societe
+Secteur    : Autre
+Liquide    : eau
+Stade      : Les deux
+Reçu le    : 2026-06-04T10:30:16
+
+Message:
+hello tester

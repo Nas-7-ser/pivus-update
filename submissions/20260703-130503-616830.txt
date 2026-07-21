@@ -1,0 +1,12 @@
+Nouveau message depuis le site PIVUS
+========================================
+Nom        : Test
+Email      : test@pivus.com
+Société    : 
+Secteur    : 
+Liquide    : 
+Stade      : 
+Reçu le    : 2026-07-03T13:05:03
+
+Message:
+Message de test pour vérifier le formulaire.

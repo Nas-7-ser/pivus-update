@@ -1,9 +1,35 @@
+# PIVUS — Netlify deploy config
+# Docs: https://docs.netlify.com/
+
+[build]
+  publish = "."
+  command = "npm install"
+
 [functions]
   directory = "netlify/functions"
   node_bundler = "esbuild"
+  included_files = ["content.json"]
 
-# L'accès admin discret /admin-pivus sert la page d'accueil.
+# API → serverless function (Netlify Blobs for CMS storage)
 [[redirects]]
-  from = "/admin-pivus"
+  from = "/api/*"
+  to = "/.netlify/functions/api"
+  status = 200
+
+# Legacy entry
+[[redirects]]
+  from = "/PIVUS.html"
+  to = "/"
+  status = 301
+
+# SPA client-side routes (static assets are served first when they exist)
+[[redirects]]
+  from = "/*"
   to = "/index.html"
   status = 200
+
+# Required Netlify env vars (Site settings → Environment variables):
+#   PIVUS_ADMIN_PASSWORD  — admin login (required in production)
+#   PIVUS_JWT_SECRET      — token signing secret (recommended; falls back to password)
+# Optional SMTP (admin “Tester l'email” only; contact form uses mailto:):
+#   PIVUS_SMTP_HOST, PIVUS_SMTP_PORT, PIVUS_SMTP_USER, PIVUS_SMTP_PASS, PIVUS_SMTP_FROM, PIVUS_SMTP_TLS
