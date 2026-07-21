@@ -1,32 +1,22 @@
-import { createRequire } from 'node:module';
 import { writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { getStore } from '@netlify/blobs';
+import seed from '../../../content.json' with { type: 'json' };
 
-const require = createRequire(import.meta.url);
 const BLOB_KEY = 'content';
 const STORE_NAME = 'pivus-content';
-const LOCAL_FILE = join(dirname(fileURLToPath(import.meta.url)), '../../../content.json');
 
-let seedCache = null;
-
-function loadSeed() {
-  if (seedCache) return seedCache;
+function localFilePath() {
   try {
-    seedCache = require('../../../content.json');
+    return join(dirname(fileURLToPath(import.meta.url)), '../../../content.json');
   } catch {
-    seedCache = {};
+    return join(process.cwd(), 'content.json');
   }
-  return seedCache;
 }
 
 function blobStore() {
-  return getStore({ name: STORE_NAME, consistency: 'strong' });
-}
-
-function isBlobError(err) {
-  return err && (err.name === 'MissingBlobsEnvironmentError' || /Netlify Blobs/.test(String(err.message)));
+  return getStore({ name: STORE_NAME });
 }
 
 export async function loadContent() {
@@ -34,14 +24,10 @@ export async function loadContent() {
     const store = blobStore();
     const saved = await store.get(BLOB_KEY, { type: 'json' });
     if (saved && typeof saved === 'object' && Object.keys(saved).length) return saved;
-  } catch (err) {
-    if (!isBlobError(err)) throw err;
-  }
-  try {
-    return require('../../../content.json');
   } catch {
-    return loadSeed();
+    // Missing Blobs env (local) or transient Blobs errors → fall back to seed.
   }
+  return seed && typeof seed === 'object' ? seed : {};
 }
 
 export async function saveContent(data) {
@@ -50,9 +36,14 @@ export async function saveContent(data) {
     await store.setJSON(BLOB_KEY, data);
     return;
   } catch (err) {
-    if (!isBlobError(err)) throw err;
+    // Local/dev fallback only — Lambda filesystem is read-only aside from /tmp.
+    try {
+      writeFileSync(localFilePath(), JSON.stringify(data, null, 2), 'utf8');
+      return;
+    } catch {
+      throw err;
+    }
   }
-  writeFileSync(LOCAL_FILE, JSON.stringify(data, null, 2), 'utf8');
 }
 
 export function currentRecipient(data) {
