@@ -1,6 +1,16 @@
+import { connectLambda } from '@netlify/blobs';
 import { adminPassword, isAuthed, issueAuthToken } from './lib/auth.mjs';
 import { currentRecipient, loadContent, saveContent } from './lib/content.mjs';
 import { sendEmail, smtpConfigured } from './lib/mail.mjs';
+
+/** Required for Netlify Blobs in Lambda-compatibility (v1) functions. */
+function initBlobs(event) {
+  try {
+    if (event?.blobs) connectLambda(event);
+  } catch {
+    // Local / missing blobs context — load/save will fall back or error clearly.
+  }
+}
 
 function json(status, payload) {
   return {
@@ -34,6 +44,7 @@ function routePath(event) {
 
 export async function handler(event) {
   try {
+    initBlobs(event);
     const method = (event.httpMethod || 'GET').toUpperCase();
     const path = routePath(event);
     const headers = event.headers || {};
